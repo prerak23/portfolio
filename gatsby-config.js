@@ -6,7 +6,7 @@ module.exports = {
     // Your Name
     name: 'Prerak Srivastava',
     // Main Site Title
-    title: `Ryan Fitzgerald | Researcher`,
+    title: `Prerak Srivastava | Researcher`,
     // Description that goes under your name in main bio
     description: `Research Scientist at SAP | P.h.D`,
     // Optional: Twitter account handle
