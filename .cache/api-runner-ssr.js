@@ -6,10 +6,10 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/psrivast/Personal Documents/portfolio/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"ADD YOUR TRACKING ID HERE"},
+      options: {"plugins":[],"trackingId":"ADD YOUR TRACKING ID HERE","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     },{
       plugin: require('/home/psrivast/Personal Documents/portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"devfolio","short_name":"devfolio","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"5c504cfe621df9b7c40af602f0f51573"},
+      options: {"plugins":[],"name":"devfolio","short_name":"devfolio","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"5c504cfe621df9b7c40af602f0f51573"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
